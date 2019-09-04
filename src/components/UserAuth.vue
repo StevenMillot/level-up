@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <form class="form-login" action="" method="post required" autocomplete="on">
+    <form class="form-login" action="" method="post" autocomplete="on">
       <div class="form-inputs">
         <label for="uname"><b>Username/Login</b></label>
         <input type="text" id="uname" placeholder="Enter Username" name="username" required>
@@ -17,9 +17,6 @@
     </form>
 
     <h1>{{ msg }}</h1>
-
-
-
   </div>
 </template>
 
@@ -57,7 +54,6 @@ export default {
     margin: 1rem;
   }
 }
-
 
 h3 {
   margin: 40px 0 0;

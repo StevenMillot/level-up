@@ -1,18 +1,17 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to the Future"/>
+    <UserAuth msg="Welcome to the Future"/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import UserAuth from '@/components/UserAuth.vue'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    UserAuth
   }
 }
 </script>
